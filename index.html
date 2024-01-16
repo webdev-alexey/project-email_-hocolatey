@@ -36,9 +36,52 @@
       }
 
       @media screen and (max-width: 599.98px) {
+        .full-width {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .mobile-padding {
+          padding-left: 10px !important;
+          padding-right: 10px !important;
+        }
+
+        .mobile-col-padding {
+          padding-left: 0px !important;
+          padding-right: 0px !important;
+        }
       }
 
       @media screen and (max-width: 399.98px) {
+        br {
+          display: none !important;
+        }
+
+        .two-columns .column,
+        .three-columns .column {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .two-columns .column img {
+          width: 100% !important;
+          max-width: 194px !important;
+        }
+
+        .three-columns table {
+          display: inline-table !important;
+        }
+
+        .three-columns td,
+        .three-columns tr {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
+        .three-columns .column img {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
       }
 
       :root {
